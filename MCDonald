@@ -153,4 +153,74 @@ INSERT INTO menu (mno, mname, mprice, mkcal) VALUES (64, '더블 치즈버거 �
 INSERT INTO menu (mno, mname, mprice, mkcal) VALUES (65, '트리플 치즈버거 세트', 8600, 1252);
 INSERT INTO menu (mno, mname, mprice, mkcal) VALUES (66, '햄버거 세트', 6000, 923);
 
+--분류 테이블 정보 삽입
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 1);  -- 크리스마스 트러플 치즈 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 2);  -- 더블 맥스파이시 상하이 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 3);  -- 더블 쿼터파운더 치즈
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 4);  -- 맥스파이시 상하이 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 5);  -- 쿼터파운드 치즈
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 6);  -- 토마토 치즈 비프버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 7);  -- 빅맥
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 8);  -- 맥크리스피 디럭스 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 9);  -- 맥크리스피 클래식 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 10); -- 1955 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 11); -- 맥치킨 모짜렐라
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 12); -- 맥치킨
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 13); -- 더블 불고기 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 14); -- 불고기 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 15); -- 슈슈 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 16); -- 슈비 버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 17); -- 베이컨 토마토 디럭스
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 18); -- 치즈버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 19); -- 더블 치즈버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 20); -- 트리플 치즈버거
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (1, '단품 햄버거', 21); -- 햄버거
+
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 22); -- 소시지 스낵랩
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 23); -- 코울슬로
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 24); -- 상하기 치킨 스낵랩
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 25); -- 골든 모짜렐라 치즈스틱
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 26); -- 후렌치 후라이 스몰
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 27); -- 후렌치 후라이 미디엄
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 28); -- 후렌치 후라이 라지
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 29); -- 맥너겟 4조각
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 30); -- 맥너겟 6조각
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 31); -- 맥스파이시 치킨 텐더 2조각
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (2, '사이드', 32); -- 해쉬 브라운
+
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 33); -- 메리 베리 맥피즈 코카-콜라
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 34); -- 메리 베리 맥피즈 코카-콜라 제로
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 35); -- 메리 베리 맥피즈 스프라이트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 36); -- 그리머스 쉐이크
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 37); -- 코카-콜라 미디엄
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 38); -- 코카-콜라 제로
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 39); -- 스프라이트 미디엄
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 40); -- 환타 미디엄
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 41); -- 바닐라 쉐이크 medium
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 42); -- 딸기 쉐이크 medium
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 43); -- 초코 쉐이크 medium
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 44); -- 오렌지 주스 미디엄
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (3, '음료', 45); -- 생수
+
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 46); -- 크리스마스 트러플 치즈 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 47); -- 더블 맥스파이시 상하이 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 48); -- 더블 쿼터파운더 치즈 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 49); -- 맥스파이시 상하이 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 50); -- 쿼터파운드 치즈 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 51); -- 토마토 치즈 비프버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 52); -- 빅맥 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 53); -- 맥크리스피 디럭스 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 54); -- 맥크리스피 클래식 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 55); -- 1955 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 56); -- 맥치킨 모짜렐라 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 57); -- 맥치킨 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 58); -- 더블 불고기 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 59); -- 불고기 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 60); -- 슈슈 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 61); -- 슈비 버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 62); -- 베이컨 토마토 디럭스 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 63); -- 치즈버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 64); -- 더블 치즈버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 65); -- 트리플 치즈버거 세트
+INSERT INTO CLASS (CNO, CNAME, MNO) VALUES (4, '세트', 66); -- 햄버거 세트
 
